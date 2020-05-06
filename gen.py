@@ -38,5 +38,5 @@ def loc_strings(lang: str):
 
 
 # gen_swift_properties()
-# gen_swift_localizable_strings('English')
-# gen_swift_localizable_strings('Korean')
+# gen_swift_localizable_strings('en')
+# gen_swift_localizable_strings('kr')
