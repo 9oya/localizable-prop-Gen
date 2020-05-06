@@ -1,8 +1,11 @@
 import csv
 
 
+file_name = "localizable_strings.csv"
+
+
 def props():
-    with open('localizedStringsSample.csv', newline='') as csvfile:
+    with open(file_name, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             key = row['key']
@@ -23,11 +26,8 @@ def props():
             print(val_txt)
 
 
-# gen_swift_properties()
-
-
 def loc_strings(lang: str):
-    with open('localizable_strings.csv', newline='') as csvfile:
+    with open(file_name, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             key = row['key']
@@ -37,5 +37,6 @@ def loc_strings(lang: str):
             print("\"{0}\" = \"{1}\";".format(key, txt))
 
 
+# gen_swift_properties()
 # gen_swift_localizable_strings('English')
 # gen_swift_localizable_strings('Korean')
