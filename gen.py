@@ -1,11 +1,11 @@
 import csv
 
 
-def gen_swift_properties():
+def props():
     with open('localizedStringsSample.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            key = row['Key']
+            key = row['key']
             if "%" in key:
                 continue
             word_arr = key.split('-')
@@ -23,4 +23,19 @@ def gen_swift_properties():
             print(val_txt)
 
 
-gen_swift_properties()
+# gen_swift_properties()
+
+
+def loc_strings(lang: str):
+    with open('localizable_strings.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            key = row['key']
+            txt = row['en']
+            if lang == "kr":
+                txt = row['kr']
+            print("\"{0}\" = \"{1}\";".format(key, txt))
+
+
+# gen_swift_localizable_strings('English')
+# gen_swift_localizable_strings('Korean')

@@ -1,0 +1,31 @@
+key,en,kr
+title-add,Add,추가하기
+title-achievement,Daily Achievement,금일 섭취달성
+title-alarm-add,Add Alarm,알람추가
+title-alarm-del,Delete This Notification,알람 삭제하기
+title-alarm-switch,On/Off,알람설정
+title-count%d,x%d,%d건
+title-daily-intake,Daily Intake,하루 섭취량
+title-daily-cnt%d,1D / x%d,1일 %d회
+title-myprod-del,Delete My Product,등록된 제품 삭제하기
+title-myprod-management,My Proudcts,섭취제품 관리
+title-notif-list,List of Notifications,섭취알람 리스트
+title-notif-register,Add Notifications,섭취알람 등록
+title-notif-t-on,Notification: On,알림: 켬
+title-notif-t-off,Notification: Off,알림: 끔
+title-notif-time-add,Add Notifications,섭취시간 추가
+title-prod,Products,섭취제품
+title-prod-info,Product Info,제품정보
+title-prod-list,List of Proudcts,제품 리스트
+title-prod-pilly,Pilly Product,필리제품
+title-prod-regist,Add Product,제품등록
+title-pick-time,Pick Your Time,시간설정
+title-s-on,On,켬
+title-s-off,Off,끔
+title-save,Save,저장하기
+title-seller-unknown,Unknown,제조사 미상
+title-t-am,AM,오전
+title-t-pm,PM,오후
+msg-hello%@,Hello %@,%@님 안녕하세요.
+msg-no-alarm-set,알람이 등록되지 않았습니다.,알람이 등록되지 않았습니다.
+msg-notif-not-add,섭취알람이 설정되지 않았습니다.,섭취알람이 설정되지 않았습니다.
