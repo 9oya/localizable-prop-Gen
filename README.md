@@ -12,4 +12,5 @@ The generator for Swift code line of localizable.string and its properties.
 ![usage_example_img1](img1.png)
 
 ## File format:
+1. CSV file only
 ![usage_example_img2](img2.png)
